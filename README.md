@@ -1,10 +1,6 @@
-# Joint Venture Nepal (JVN)
+# MiCasa
 
-######A hyper local Nepali crowdfunding platform.
-
-Welcome to JVN code repo.JVN is a forked project of a popular crowdfunding project called [Catarse](https://github.com/catarse/catarse). Our goal with opening the source code is to stimulate the creation of a community of developers around a high-quality crowdfunding platform.
-
-You can see the software in action in [http://myjvn.com](http://myjvn.com). The official repo is [https://github.com/sushant12/jvn](https://github.com/sushant12/jvn)
+Welcome to MiCasa code repo.MiCasa is a forked project of a popular crowdfunding project called [Catarse](https://github.com/catarse/catarse).
 
 ## Getting started
 
@@ -29,11 +25,11 @@ To run this project you need to have:
 
 * Clone the project
 
-        $ git clone https://github.com/sushant12/jvn.git
+        $ git clone https://github.com/ToroNZ/MiCasa.git
 
 * Enter project folder
 
-        $ cd jvn
+        $ cd MiCasa
 
 * Create the `database.yml`
 
