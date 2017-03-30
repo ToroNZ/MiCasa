@@ -32,10 +32,10 @@ lock "3.7.2"
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
-set :application, 'jvn'
-set :repo_url, 'git@github.com:sushant12/jvn.git' # Edit this to match your repository
+set :application, 'MiCasa'
+set :repo_url, 'git@github.com:ToroNZ/MiCasa.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/deploy/jvn'
+set :deploy_to, '/home/deploy/MiCasa'
 set :pty, true
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}

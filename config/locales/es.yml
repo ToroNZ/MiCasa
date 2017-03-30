@@ -1,0 +1,30 @@
+en:
+  errors:
+    messages:
+      carrierwave_processing_error: "Fallo intento de procesar el archivo"
+      carrierwave_integrity_error: "Tipo de archivo no permitido"
+      carrierwave_download_error: "Error descargando el archivo"
+      extension_white_list_error: "Archivo de tipo invalido: %{extension}, tipos permitidos: %{allowed_types}"
+      extension_black_list_error: "Tipo de archivo no permitido %{extension}, tipos no permitidos: %{prohibited_types}"
+      content_type_whitelist_error: "Tipo %{content_type} no reconocido"
+      content_type_blacklist_error: "Tipo no habilitado %{content_type}"
+      rmagick_processing_error: "Error al manipular la imagen"
+      mini_magick_processing_error: "Error al manipular la imagen, Error: %{e}"
+      min_size_error: "Archivo debe ser mas grande que %{min_size}"
+      max_size_error: "Archivo debe ser menor que %{max_size}"
+  not_filled: 'Vacio'
+  days: dias
+  facebook_locale: es_LA
+  failure_title: 'Por favor, corrija los siguientes errores:'
+  i_just_contributed: Acabo de apoyar proyecto %{name} en MiCasa
+  'no': N
+  'yes': Si
+  not_informed: uninformed
+  or: o
+  sending: Enviando...
+  share_my_contributions: 'Chequea el proyeto '
+  site:
+    description:  MiCasa es la primera plataforma de financiacion colectiva de Argentina. Visitala y participa en la oportunidad que mas te interese.
+    keywords: crowdfunding, financiacion colectiva, financiacion de multitud, desarrollo inmobiliario, open source
+    meta_title: "%{title} · %{company_name}"
+    title: MiCasa - Argentina

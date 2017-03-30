@@ -1,0 +1,27 @@
+es:
+  pages:
+    explore:
+      header_html: "Explore Amazing Campaigns  "
+      success_follow: "Thank you! We'll send you a weekly email with recent projects in the category %{name}."
+      success_unfollow: "You have stopped following the %{name}."
+      follow: follow
+      unfollow: Unfollow
+      following: Followers
+      categories: Categories
+      expiring: In the final stretch
+      in_funding: Online
+      near: Next to me
+      quick_explore: Quick search
+      recent: Recent Updates
+      recommended: Most Popular
+      subtitle: Explore projects, find those who move your heart, and make it happen!
+      successful: Successful
+      title: Find incredible projects
+      projects:
+        index:
+          explore_categories:
+            16:
+              icon: "https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/58ae47fb9cd197f94ab5f96c_icon-music.png"
+              link: "http://crowdfunding.catarse.me/financiamento-coletivo-musica-independente?ref=ctrse_start"
+              title: "Lance sua música no Catarse!"
+              cta: "Aprenda como"

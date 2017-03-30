@@ -19,7 +19,7 @@ en:
   i_just_contributed: I just supported the project %{name} on JVN
   'no': No
   'yes': Yes
-  not_informed: uninformed
+  not_informed: no informado
   or: or
   sending: Sending...
   share_my_contributions: 'Check the project '
