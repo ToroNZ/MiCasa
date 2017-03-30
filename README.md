@@ -79,19 +79,19 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ### Translations
 
-We hope to support Nepali languages in the future, so we are willing to accept pull requests with translations in Nepali.
+We are in the process of translating Catarse into Spanish (castellano). It might be a rocky ride so bare with us, I have no idea what I'm doing.
 
 ## Payment gateways
 
-We have plans to integrate eSewa, Stripe, Everest Bank Payment System and NIBL Bank Payment System.
+We look forward to integrate this solution with Stripe-like methods and some Bank Payment Systems.
 
 ## How to contribute with code
 
-Discuss your plans in our mailing list (http://groups.google.com/group/joint-venture-nepal).
+Discuss your plans in our Rocket Chat room (https://chat.sensaway.co.nz/channel/general).
 
 After that, just fork the project, change what you want, and send us a pull request.
 
-### Best practices (or how to get your pull request accepted faster)
+### Best practices (aka: how to get your pull request accepted faster)
 
 * Follow this style guide: https://github.com/bbatsov/ruby-style-guide
 * Create one acceptance tests for each scenario of the feature you are trying to implement.
