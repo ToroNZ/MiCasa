@@ -9,9 +9,9 @@ es:
       help_support: Support Center
       profile: Mi Perfil
       projects: Mis Oportunidades
-      signin: Inicia Sesion
+      signin: Ingresa
       signup: Registrate
-      submit: Crea una oportunidade
+      submit: Crea una oportunidad
       search: Busca oportunidades
     login:
       login_with_facebook: Inicia sesion usando facebook
