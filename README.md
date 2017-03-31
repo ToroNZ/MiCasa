@@ -87,7 +87,7 @@ We look forward to integrate this solution with Stripe-like methods and some Ban
 
 ## How to contribute with code
 
-Discuss your plans in our Rocket Chat room (https://chat.sensaway.co.nz/channel/general).
+Discuss your plans in our Rocket Chat room (https://micasa-arg.slack.com/messages/C4SD9RNQ2/).
 
 After that, just fork the project, change what you want, and send us a pull request.
 
