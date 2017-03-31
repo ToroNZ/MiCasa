@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe "Users", type: :feature do
   before do
-    I18n.locale = :pt
+    I18n.locale = :es
     OauthProvider.create! name: 'facebook', key: 'dummy_key', secret: 'dummy_secret'
   end
 
@@ -53,13 +53,13 @@ RSpec.describe "Users", type: :feature do
 
   describe "View public profile page" do
     before do
-      @user = create(:user) 
-      5.times{ create(:project, user: @user) } 
+      @user = create(:user)
+      5.times{ create(:project, user: @user) }
       5.times{ create(:confirmed_contribution, user: @user) }
     end
 
     it "should describe the date the user signed up, the total number of projects created and the total number of contributions on the profile page" do
-      visit(user_path(@user))      
+      visit(user_path(@user))
       sleep FeatureHelpers::TIME_TO_SLEEP
       expect(page).to have_content I18n.t('users.profile.user_since', date: I18n.localize(@user.created_at, format: "%B de %Y"))
       expect(page).to have_content I18n.t('users.profile.multiple_project_created', n_projects: 5)

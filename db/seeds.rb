@@ -35,7 +35,7 @@ puts 'Seeding the database...'
   { pt: 'Filmes Universitários', en: 'Experimental Films' },
   { pt: 'Saúde', en: 'Health', fr: 'Santé' }
 ].each do |name|
-   category = Category.find_or_initialize_by(name_pt: name[:pt])
+   category = Category.find_or_initialize_by(name_es: name[:es])
    category.update_attributes({
      name_es: name[:es]
    })
@@ -72,8 +72,8 @@ puts 'Seeding the database...'
   privacy_url: 'https://support.sensaway.co.nz/knowledgebase/articles/20170331-politica-de-privacidad',
   about_channel_url: 'https://blog.sensaway.co.nz/acerca-de-micasa/',
   instagram_url: 'https://instagram.com/',
-  blog_url: "https://medium.com/feed/@myjvnepal",
-  github_url: 'https://github.com/sushant12/catarse',
+  blog_url: "https://medium.com/feed/@Sensaway",
+  github_url: 'https://github.com/ToroNZ/MiCasa',
   contato_url: 'https://support.sensaway.co.nz/'
 }.each do |name, value|
    conf = CatarseSettings.find_or_initialize_by(name: name)
