@@ -37,7 +37,7 @@ puts 'Seeding the database...'
 ].each do |name|
    category = Category.find_or_initialize_by(name_pt: name[:pt])
    category.update_attributes({
-     name_en: name[:en]
+     name_es: name[:es]
    })
    category.update_attributes({
      name_fr: name[:fr]
@@ -198,13 +198,13 @@ end
     {name: 'Bhaktapur', state_id: '26'},
     {name: 'Gadhimai', state_id: '33'},
     {name: 'Tarakeshwar', state_id: '27'},
-    {name: 'Lahan', state_id: '16'}, 
+    {name: 'Lahan', state_id: '16'},
     {name: 'Damak', state_id: '4'},
     {name: 'Banganga', state_id: '51'},
     {name: 'Attariya', state_id: '71'},
     {name: 'Lumbini Sanskritik', state_id: '49'},
     {name: 'Chandrapur', state_id: '32'},
-    {name: 'Triyuga', state_id: '14'}, 
+    {name: 'Triyuga', state_id: '14'},
     {name: 'Ratnanagar', state_id: '35'},
     {name: 'Lekhnath', state_id: '40'},
     {name: 'Nagarjun', state_id: '27'},
@@ -216,27 +216,27 @@ end
     {name: 'Lamki Chuha', state_id: '71'},
     {name: 'Ghodaghodi', state_id: '71'},
     {name: 'Kageshwari-Manohara', state_id: '27'},
-    {name: 'Birtamod', state_id: '4'}, 
+    {name: 'Birtamod', state_id: '4'},
     {name: 'Siraha', state_id: '16'},
     {name: 'Mechinagar', state_id: '4'},
-    {name: 'Gulariya', state_id: '57'}, 
+    {name: 'Gulariya', state_id: '57'},
     {name: 'Tikapur', state_id: '71'},
     {name: 'Kawasoti', state_id: '48'},
     {name: 'Khairahani', state_id: '35'},
     {name: 'Bansgadhi', state_id: '57'},
     {name: 'Gaidakot', state_id: '48'},
-    {name: 'Belauri', state_id: '72'}, 
+    {name: 'Belauri', state_id: '72'},
     {name: 'Rajapur', state_id: '57'},
     {name: 'Bhadrapur', state_id: '4'},
     {name: 'Barahathwa', state_id: '19'},
-    {name: 'Shivaraj', state_id: '51'}, 
+    {name: 'Shivaraj', state_id: '51'},
     {name: 'Pathari Sanischare', state_id: '5'},
     {name: 'Bedkot', state_id: '72'},
     {name: 'Golbazar', state_id: '16'},
     {name: 'Kanchan Rup', state_id: '15'},
     {name: 'Koshi Haraicha', state_id: '5'},
     {name: 'Byas', state_id: '38'},
-    {name: 'Dhandadimai', state_id: '16'}, 
+    {name: 'Dhandadimai', state_id: '16'},
     {name: 'Gauradaha', state_id: '4'},
     {name: 'Rapti', state_id: '35'},
     {name: 'Mirchaiya', state_id: '16'},
