@@ -1,7 +1,7 @@
 class AddContributedByFriendsToProjectDetails < ActiveRecord::Migration
   def change
     execute %Q{
-CREATE OR REPLACE VIEW "1".project_details AS 
+CREATE OR REPLACE VIEW "1".project_details AS
  SELECT p.id AS project_id,
     p.id,
     p.user_id,
@@ -13,7 +13,7 @@ CREATE OR REPLACE VIEW "1".project_details AS
     p.permalink,
     p.video_embed_url,
     p.video_url,
-    c.name_en AS category_name,
+    c.name_es AS category_name,
     c.id AS category_id,
     original_image(p.*) AS original_image,
     thumbnail_image(p.*, 'thumb'::text) AS thumb_image,
@@ -66,7 +66,7 @@ CREATE OR REPLACE VIEW "1".project_details AS
      LEFT JOIN public.cities ct ON ((ct.id = p.city_id)))
      LEFT JOIN public.states st ON ((st.id = ct.state_id)))
      LEFT JOIN public.project_reminders pr ON ((pr.project_id = p.id)))
-  GROUP BY p.id, c.id, u.id, c.name_en, ct.name, u.address_city, st.acronym, u.address_state, st.name, pt.progress, pt.pledged, pt.paid_pledged, pt.total_contributions, p.state, p.expires_at, pt.total_payment_service_fee, pt.total_contributors;
+  GROUP BY p.id, c.id, u.id, c.name_es, ct.name, u.address_city, st.acronym, u.address_state, st.name, pt.progress, pt.pledged, pt.paid_pledged, pt.total_contributions, p.state, p.expires_at, pt.total_payment_service_fee, pt.total_contributors;
     }
   end
 end

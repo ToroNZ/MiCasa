@@ -3,15 +3,15 @@ class CreateTriggerToUpdateProjectFullTextIndex < ActiveRecord::Migration
     execute <<-SQL
     CREATE OR REPLACE FUNCTION update_full_text_index() RETURNS trigger AS $$
     BEGIN
-      new.full_text_index :=  setweight(to_tsvector('english', unaccent(coalesce(NEW.name::text, ''))), 'A') || 
-                              setweight(to_tsvector('english', unaccent(coalesce(NEW.permalink::text, ''))), 'C') || 
+      new.full_text_index :=  setweight(to_tsvector('english', unaccent(coalesce(NEW.name::text, ''))), 'A') ||
+                              setweight(to_tsvector('english', unaccent(coalesce(NEW.permalink::text, ''))), 'C') ||
                               setweight(to_tsvector('english', unaccent(coalesce(NEW.headline::text, ''))), 'B');
-      new.full_text_index :=  new.full_text_index || setweight(to_tsvector('english', unaccent(coalesce((SELECT c.name_en FROM categories c WHERE c.id = NEW.category_id)::text, ''))), 'B');
+      new.full_text_index :=  new.full_text_index || setweight(to_tsvector('english', unaccent(coalesce((SELECT c.name_es FROM categories c WHERE c.id = NEW.category_id)::text, ''))), 'B');
       RETURN NEW;
     END;
     $$ LANGUAGE plpgsql;
 
-    CREATE TRIGGER update_full_text_index 
+    CREATE TRIGGER update_full_text_index
     BEFORE INSERT OR UPDATE OF name, permalink, headline
     ON projects
     FOR EACH ROW
