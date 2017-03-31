@@ -44,7 +44,7 @@ class Notification < ActiveRecord::Base
   end
 
   def locale
-    @locale ||= (self.metadata.try(:[], 'locale') || 'en')
+    @locale ||= (self.metadata.try(:[], 'locale') || 'es')
   end
 
   def project
@@ -62,4 +62,3 @@ class Notification < ActiveRecord::Base
     filter.nil? || self.where(filter.merge(template_name: template_name)).empty?
   end
 end
-

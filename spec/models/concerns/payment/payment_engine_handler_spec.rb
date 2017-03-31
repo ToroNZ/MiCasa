@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Payment::PaymentEngineHandler, type: :model do
   let(:payment){ create(:payment, gateway: 'MoIP') }
-  let(:moip_engine) { double("moip engine", name: 'MoIP', review_path: "/#{payment.id}", locale: 'pt', can_do_refund?: false, direct_refund: false) }
+  let(:moip_engine) { double("moip engine", name: 'MoIP', review_path: "/#{payment.id}", locale: 'es', can_do_refund?: false, direct_refund: false) }
 
   before do
     allow_any_instance_of(Payment).to receive(:payment_engine).and_return(moip_engine)

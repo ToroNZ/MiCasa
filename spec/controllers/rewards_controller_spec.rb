@@ -12,7 +12,7 @@ RSpec.describe RewardsController, type: :controller do
 
   describe "POST sort" do
     before do
-      post :sort, project_id: project.id, id: reward.id, reward: {row_order_position: 1}, locale: :pt
+      post :sort, project_id: project.id, id: reward.id, reward: {row_order_position: 1}, locale: :es
     end
 
     context "when user is not logged in" do

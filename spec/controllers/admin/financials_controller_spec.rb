@@ -9,14 +9,14 @@ RSpec.describe Admin::FinancialsController, type: :controller do
 
   describe "GET index" do
     context 'as html format' do
-      before { get :index, locale: 'en' }
+      before { get :index, locale: 'es' }
 
       it{ is_expected.to render_template :index }
       its(:status){ should == 200 }
     end
 
     context 'as csv format' do
-      before { get :index, format: :csv, locale: 'en' }
+      before { get :index, format: :csv, locale: 'es' }
 
       it{ expect(response.content_type).to eq 'text/csv' }
       its(:status){ should == 200 }
@@ -28,17 +28,16 @@ RSpec.describe Admin::FinancialsController, type: :controller do
 
     context "when there is a match" do
       before do
-        get :index, locale: :en, name_contains: 'Foo Bar Project'
+        get :index, locale: :es, name_contains: 'Foo Bar Project'
       end
       it{ expect(assigns(:projects)).to eq([project]) }
     end
 
     context "when there is no match" do
       before do
-        get :index, locale: :en, name_contains: 'Other search'
+        get :index, locale: :es, name_contains: 'Other search'
       end
       it{ expect(assigns(:projects)).to eq([]) }
     end
   end
 end
-

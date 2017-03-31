@@ -14,10 +14,10 @@ P3P: CP="This is not a P3P policy! See http://support.google.com/accounts/bin/an
 Transfer-Encoding: chunked
 
 <!DOCTYPE html><html lang="pt" data-cast-api-enabled="true"><head><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, n) {ytcsi.gt(n).span[l] = (typeof s == 'number') ? s :+new Date() - ytcsi.data_.tick[l];},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;}};(function() {var perf = window['performance'] || window['mozPerformance'] ||window['msPerformance'] || window['webkitPerformance'];ytcsi.tick('_start', perf ? perf['timing']['responseStart'] : null);})();if (document.webkitVisibilityState == 'prerender') {ytcsi.info('prerender', 1);document.addEventListener('webkitvisibilitychange', function() {ytcsi.tick('_start');}, false);}try {ytcsi.pt_ = (window.chrome && chrome.csi().pageT ||window.gtbExternal && gtbExternal.pageT() ||window.external && external.pageT);if (ytcsi.pt_) {ytcsi.info('pt', Math.floor(ytcsi.pt_));}} catch(e) {}</script>    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
-    
+
 
   <link id="css-835762562" class="www-core" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vfl_Ns0me.css" data-loaded="true">
-<script>if (window.ytcsi) {window.ytcsi.tick("ce", null, '');}</script>  
+<script>if (window.ytcsi) {window.ytcsi.tick("ce", null, '');}</script>
       <script>
     ytimg.preload("http:\/\/r3---sn-upfn-hp56.googlevideo.com\/crossdomain.xml");
     ytimg.preload("http:\/\/r3---sn-upfn-hp56.googlevideo.com\/generate_204");
@@ -26,7 +26,7 @@ Transfer-Encoding: chunked
 
   <script>
 try {var ytbuffer = {};ytbuffer.bufferedClick;ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (element.className.match(/^yt-can-buffer$|^yt-can-buffer | yt-can-buffer$| yt-can-buffer /)) {ytbuffer.bufferedClick = e;element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}  </script>
-<title>Red Hot Chili Peppers - Instrumental #1 - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=pt_BR" title="Pesquisa de vídeos do YouTube"><link rel="shortcut icon" href="http://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=Brw7bzU_t4c&amp;desktop_uri=%2Fwatch%3Fv%3DBrw7bzU_t4c"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=Brw7bzU_t4c&amp;desktop_uri=%2Fwatch%3Fv%3DBrw7bzU_t4c">      <meta name="title" content="Red Hot Chili Peppers - Instrumental #1">
+<title>Red Hot Chili Peppers - Instrumental #1 - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=es_LA" title="Pesquisa de vídeos do YouTube"><link rel="shortcut icon" href="http://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=Brw7bzU_t4c&amp;desktop_uri=%2Fwatch%3Fv%3DBrw7bzU_t4c"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=Brw7bzU_t4c&amp;desktop_uri=%2Fwatch%3Fv%3DBrw7bzU_t4c">      <meta name="title" content="Red Hot Chili Peppers - Instrumental #1">
 
       <meta name="description" content="B-Sides facebook.com/FruscianteLove">
 
@@ -69,14 +69,14 @@ try {var ytbuffer = {};ytbuffer.bufferedClick;ytbuffer.handleClick = function(e)
       <meta name="twitter:player:width" content="1280">
       <meta name="twitter:player:height" content="720">
 
-      <meta name=attribution content=WMG/>  
+      <meta name=attribution content=WMG/>
 <script>if (window.ytcsi) {window.ytcsi.tick("cl", null, '');}</script></head><!-- machid: vWlVZaXZvam11Y0lxVHplWTZNdkxFa29wZlhEVWVPWHNpSDc5ODNGMllZVHBuQk03LW1PNklR -->    <body dir="ltr" class="  ltr        site-left-aligned  hitchhiker-enabled      guide-enabled guide-collapsed sidebar-expanded   " id="body">
 
-  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form>    
-    
+  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form>
+
     <div id="yt-masthead-container" class="yt-grid-box yt-base-gutter"><div id="yt-masthead" class="">    <a id="logo-container" href="/" title="Página inicial do YouTube" class="spf-link "><img id="logo" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Página inicial do YouTube"><span class="content-region">BR</span></a>
 <div id="yt-masthead-signin"><button class=" yt-uix-button yt-uix-button-primary yt-uix-button-size-default" type="button" href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dsign_in_button%26hl%3Dpt%26next%3D%252Fwatch%253Fv%253DBrw7bzU_t4c&amp;hl=pt-BR" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;"  role="button"><span class="yt-uix-button-content">Fazer login </span></button></div><div id="yt-masthead-content"><span id="masthead-upload-button-group"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=7-iMUrSCJ4j18wbK1oGQAw&amp;feature=mhsb"><span class="yt-uix-button-content">Enviar vídeos </span></a></span><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;"><button id="search-btn" type="submit" dir="ltr" onclick="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; _gel(&#39;masthead-search&#39;).submit(); return false;;return true;" tabindex="2" class="search-btn-component search-button yt-uix-button yt-uix-button-default yt-uix-button-size-default"  role="button"><span class="yt-uix-button-content">Pesquisar </span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off"  class="search-term yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" title="Pesquisar"></label></div></form></div></div></div>
-    
+
   <div id="alerts">
         <div class="yt-alert yt-alert-default yt-alert-info  " id="yt-lang-alert-container">  <div class="yt-alert-icon">
     <img src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="icon master-sprite" alt="Ícone de alerta">
@@ -101,7 +101,7 @@ Configuramos seu idioma de preferência como <strong>Português (Brasil)</strong
     </div>
   </div>
 </div></div>
-    
+
 
 
 
@@ -109,7 +109,7 @@ Configuramos seu idioma de preferência como <strong>Português (Brasil)</strong
 
   </div>
   <div id="header">
-    
+
   </div>
 <div id="page-container"><div id="page" class="  watch   clearfix"><div id="guide" >      <div id="guide-container" class="    collapsible-guide  loading">
     <div id="guide-main" class="    guide-module collapsed   yt-uix-tdl ">
@@ -141,11 +141,11 @@ Carregando...
 
 </div><div id="player" class="">
   <div id="playlist" class="playlist">
-    
+
   </div>
 
   <div id="player-unavailable" class="    hid    player-unavailable ">
-    
+
   </div>
 
     <div id="player-api" class="player-width player-height off-screen-target watch-content player-api"></div>
@@ -167,7 +167,7 @@ Carregando...
 
 
   <div id="playlist-tray" class="playlist-tray">
-    
+
   </div>
 
   <div class="clear"></div>
@@ -213,10 +213,10 @@ Carregando...
               <div class="yt-uix-button-panel">
         <div id="watch7-headline" class="clearfix  yt-uix-expander yt-uix-expander-collapsed">
     <h1 id="watch-headline-title" class="yt">
-      
 
 
-  
+
+
 
 
   <span id="eow-title" class="watch-title  yt-uix-expander-head" dir="ltr" title="Red Hot Chili Peppers - Instrumental #1">
@@ -238,9 +238,9 @@ Carregando...
       </span>
     </span>
 </a><a href="/user/FruscianteWorld?feature=watch" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=7-iMUrSCJ4j18wbK1oGQAw&amp;feature=watch" dir="ltr" data-ytid="UCVD5G9uScmvH5DTsNKbmZfA" data-name="watch">FruscianteWorld</a><span class="yt-user-separator">&middot;</span><a class="yt-uix-sessionlink yt-user-videos"             href="/user/FruscianteWorld/videos"             data-sessionlink="ei=7-iMUrSCJ4j18wbK1oGQAw&amp;feature=watch">360 vídeos</a><br><span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container with-preferences" ><button aria-busy="false" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-branded yt-uix-button-size-default yt-uix-button-has-icon" type="button" aria-live="polite" aria-role="button" onclick=";return false;" data-href="https://accounts.google.com/ServiceLogin?uilel=3&amp;service=youtube&amp;passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26continue_action%3DQUFFLUhqbXB1clhpVVhDQzRSQ1ZKTW1KS2d0cWd0QjRoQXxBQ3Jtc0ttR2hJRnFDbUdIejBsY1haT2k2T2hqbXlDTWJVNENlRzR3eUtkUllPdTU2YWdEdGthNmprQUd1SE1LUFhUaDNZYnZsenFkNGM2WVJ5NW9CekpnR1JoUWVaaFd5UnVKeFpIQUI0TXNZWDN5Z3pMQkJSY1lnX1RpTW82WXBaUDkzbGtVZEVUbVRNNXhkdURaOWN3aExmaVpwcUo1dUZfWjVvZW9nSUFrcTJwellRZjRkYVJFSWhhNFpYa3dNaURLbjB4SjN5NXU%253D%26feature%3Dsubscribe%26hl%3Den%26next%3D%252Fchannel%252FUCVD5G9uScmvH5DTsNKbmZfA&amp;hl=en" data-channel-external-id="UCVD5G9uScmvH5DTsNKbmZfA" data-sessionlink="ei=7-iMUrSCJ4j18wbK1oGQAw&amp;ved=CAEQmys&amp;feature=watch" data-style-type="branded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Inscrever-se">Inscrever-se</span><span class="subscribed-label" aria-label="Cancelar inscrição">Inscrito</span><span class="unsubscribe-label" aria-label="Cancelar inscrição">Cancelar inscrição</span> </span></button><button class="yt-uix-subscription-preferences-button yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" type="button" onclick=";return false;" data-channel-external-id="UCVD5G9uScmvH5DTsNKbmZfA" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal" >48.488</span>  <span class="yt-subscription-button-disabled-mask" title=""></span>
-  
+
   <div class="yt-uix-overlay " data-overlay-style="primary"data-overlay-shape="tiny">
-    
+
         <div class="yt-dialog hid">
     <div class="yt-dialog-base">
       <span class="yt-dialog-align"></span>
@@ -412,7 +412,7 @@ Carregando...
 
   </span>
 
-            
+
   <span >
     <button disabled="True" class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" type="button" title="As estatísticas foram desativadas neste vídeo" onclick=";return false;" data-trigger-for="action-panel-stats" data-button-toggle="true" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-action-panel-stats" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="As estatísticas foram desativadas neste vídeo" title=""></span></button>
   </span>
@@ -434,12 +434,12 @@ Carregando...
               <strong>Publicado em <span id="eow-date" class="watch-video-date" >14/03/2013</span>
 </strong>
           </p>
-          
+
           <div id="watch-description-text">
             <p id="eow-description" >B-Sides<br /><br />facebook.com/FruscianteLove</p>
           </div>
             <div id="watch-description-extras">
-    
+
     <ul class="watch-extras-section">
       <li>
         <h4 class="title">
@@ -963,7 +963,7 @@ Reproduzir todos
  </span><img class="yt-uix-button-arrow" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
 </span><span dir="ltr" class="title" title="Wet Sand - Instrumental  (Red Hot Chili Peppers)">Wet Sand - Instrumental  (Red Hot Chili Peppers)</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCi9Wiuh2sijQOUfDuTe_VHw"data-name="watch-vrec">por <b><span class="g-hovercard" data-ytid="UCi9Wiuh2sijQOUfDuTe_VHw">Anirudh Suresh</span></b></span></span><span class="stat view-count">30.599 visualizações</span></a></li>
       </ul>
-    </div>   </div> 
+    </div>   </div>
   </div>
 
         </div>
@@ -978,7 +978,7 @@ Reproduzir todos
 
 </div></div></div></div>  <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" title="Página inicial do YouTube"><img src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Página inicial do YouTube"></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
       <li>
-          
+
   <button id="yt-picker-language-button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" type="button" onclick=";return false;" data-button-menu-id="arrow-display" data-picker-key="language" data-picker-position="footer" data-button-toggle="true" data-button-action="yt.www.picker.load" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-footer-language" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
 Idioma:
   </span>
@@ -988,7 +988,7 @@ Idioma:
 
       </li>
       <li>
-          
+
   <button id="yt-picker-country-button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" onclick=";return false;" data-button-menu-id="arrow-display" data-picker-key="country" data-picker-position="footer" data-button-toggle="true" data-button-action="yt.www.picker.load" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
 País:
   </span>
@@ -998,7 +998,7 @@ País:
 
       </li>
       <li>
-          
+
   <button id="yt-picker-safetymode-button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" onclick=";return false;" data-button-menu-id="arrow-display" data-picker-key="safetymode" data-picker-position="footer" data-button-toggle="true" data-button-action="yt.www.picker.load" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
 Segurança:
   </span>
@@ -1204,7 +1204,7 @@ Política e Segurança
 
 
 
-      'HL_LOCALE': "pt_BR",
+      'HL_LOCALE': "es_LA",
 
       'TTS_URL': null,
       'JS_DELAY_LOAD': 0,
@@ -1240,7 +1240,7 @@ Política e Segurança
       'WATCH_CONTEXT_MORE_RESULTS': "Mais resultados",
       'LOADING': "Carregando..."    });
 
-    
+
 
       yt.setMsg({
     'UNBLOCK_USER': "Tem certeza de que deseja desbloquear este usuário?",
@@ -1249,7 +1249,6 @@ Política e Segurança
   yt.setConfig('BLOCK_USER_AJAX_XSRF', 'session_token=wEL6C0khRRlekMz3PmgiTLLVD1d8MTM4NTA1Mjc4M0AxMzg0OTY2Mzgz');
 
 
-    
 
 
 
@@ -1257,19 +1256,20 @@ Política e Segurança
 
 
 
-    
+
+
 
 
 
       yt.setConfig({
-    'GUIDED_HELP_LOCALE': "pt_BR",
+    'GUIDED_HELP_LOCALE': "es_LA",
     'GUIDED_HELP_ENVIRONMENT': "prod"
   });
 
   </script>
 
 
-<script>yt.setConfig({'EVENT_ID': "7-iMUrSCJ4j18wbK1oGQAw",'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.EKe3duBii-U.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTPsWJ9FBpglI0Gt6JE37bJ2DTHSyw",'GAPI_LOCALE': "pt_BR",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflV6zcpv.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-vfl0EwC6k\/www_common_mod.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vfl-rmjk6.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vfl--w7ge.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflKz4WoM.js",''         ],'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == 1) ? 'one' : 'other'; },'LOCAL_DATE_TIME_CONFIG': {"weekdays": ["domingo", "segunda-feira", "ter\u00e7a-feira", "quarta-feira", "quinta-feira", "sexta-feira", "s\u00e1bado"], "formatLongDate": "d 'de 'MMMM 'de 'yyyy H:mm", "formatLongDateOnly": "d 'de 'MMMM 'de 'yyyy", "shortMonths": ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"], "months": ["janeiro", "fevereiro", "mar\u00e7o", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"], "formatWeekdayShortTime": "EE H:mm", "amPms": null, "shortWeekdays": ["dom", "seg", "ter", "qua", "qui", "sex", "s\u00e1b"], "formatShortDate": "dd\/MM\/yyyy"},'PAGE_CL': 56892524,'PAGE_BUILD_TIMESTAMP': "Tue Nov 19 00:47:25 2013 (1384850845)",'UNIVERSAL_HOVERCARDS': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "pt",'FEEDBACK_LOCALE_EXTRAS': {"is_branded": "", "guide_subs": "NA", "logged_in": false, "experiments": "941262,937801,925724,936401,925728,906945,929935,929939,939602,939604,920605,912715,919811,935704,921409,920607,936702,911427,901812,934003,934004,938608,938614,938617,938626,936912,936910,923308,936913,940501,936323,936321,913573,935006,924414,924416,939201,934507,912714,907231,907240", "accept_language": null, "is_partner": ""}});yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_WATCH_LATER': "Assistir mais tarde",'ADDTO_WATCH_LATER_ADDED': "Adicionado",'ADDTO_WATCH_LATER_ERROR': "Erro"});yt.setAjaxToken('addto_ajax_logged_out', "tuhixlstqaR6TfZoQKofbLMuzqd8MTM4NTA1Mjc4M0AxMzg0OTY2Mzgz");  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vfl0tswnt.css");
+<script>yt.setConfig({'EVENT_ID': "7-iMUrSCJ4j18wbK1oGQAw",'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.EKe3duBii-U.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTPsWJ9FBpglI0Gt6JE37bJ2DTHSyw",'GAPI_LOCALE': "es_LA",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflV6zcpv.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-vfl0EwC6k\/www_common_mod.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vfl-rmjk6.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vfl--w7ge.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflKz4WoM.js",''         ],'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == 1) ? 'one' : 'other'; },'LOCAL_DATE_TIME_CONFIG': {"weekdays": ["domingo", "segunda-feira", "ter\u00e7a-feira", "quarta-feira", "quinta-feira", "sexta-feira", "s\u00e1bado"], "formatLongDate": "d 'de 'MMMM 'de 'yyyy H:mm", "formatLongDateOnly": "d 'de 'MMMM 'de 'yyyy", "shortMonths": ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"], "months": ["janeiro", "fevereiro", "mar\u00e7o", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"], "formatWeekdayShortTime": "EE H:mm", "amPms": null, "shortWeekdays": ["dom", "seg", "ter", "qua", "qui", "sex", "s\u00e1b"], "formatShortDate": "dd\/MM\/yyyy"},'PAGE_CL': 56892524,'PAGE_BUILD_TIMESTAMP': "Tue Nov 19 00:47:25 2013 (1384850845)",'UNIVERSAL_HOVERCARDS': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "es",'FEEDBACK_LOCALE_EXTRAS': {"is_branded": "", "guide_subs": "NA", "logged_in": false, "experiments": "941262,937801,925724,936401,925728,906945,929935,929939,939602,939604,920605,912715,919811,935704,921409,920607,936702,911427,901812,934003,934004,938608,938614,938617,938626,936912,936910,923308,936913,940501,936323,936321,913573,935006,924414,924416,939201,934507,912714,907231,907240", "accept_language": null, "is_partner": ""}});yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_WATCH_LATER': "Assistir mais tarde",'ADDTO_WATCH_LATER_ADDED': "Adicionado",'ADDTO_WATCH_LATER_ERROR': "Erro"});yt.setAjaxToken('addto_ajax_logged_out', "tuhixlstqaR6TfZoQKofbLMuzqd8MTM4NTA1Mjc4M0AxMzg0OTY2Mzgz");  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vfl0tswnt.css");
   yt.setAjaxToken('feed_privacy_ajax', "XCpcromsFt_05tBogVSSJ2QgoHV8MTM4NTA1Mjc4M0AxMzg0OTY2Mzgz");
     yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
 yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl08WbvN.js",'SBOX_SETTINGS': {"SESSION_INDEX": null, "HAS_ON_SCREEN_KEYBOARD": true, "PSUGGEST_TOKEN": null, "EXPERIMENT_ID": -1, "REQUEST_LANGUAGE": "pt", "USE_HTTPS": false, "REQUEST_DOMAIN": "br"},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL": "Sugest\u00e3o dispensada", "VIEW_CHANNEL_LABEL": "Exibir canal", "WATCH_NOW_LABEL": "Assista agora", "SUGGESTION_DISMISS_LABEL": "Dispensar"}});  yt.setConfig({
@@ -1284,4 +1284,3 @@ yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl08Wb
 ytcsi.span('st', 114);yt.setConfig({'TIMING_ACTION': "watch,watch7ad",'TIMING_INFO': {"e": "941262", "yt_lt": "cold", "yt_ad_pr": 1, "yt_ad_an": "aftv,afv,dclk", "yt_spf": 0, "yt_ad": 1, "yt_pt": "flash", "ei": "7-iMUrSCJ4j18wbK1oGQAw", "yt_li": 0}});    </script>
 <script>yt.setConfig({'XSRF_TOKEN': "7bkv5gUjo6YHjuRpj2N7bUkNp-t8MTM4NTA1Mjc4M0AxMzg0OTY2Mzgz",'XSRF_REDIRECT_TOKEN': "YSD-F8PuWFqeN6nHzBVdDFWMi2R8MTM4NTA1Mjc4M0AxMzg0OTY2Mzgz",'XSRF_FIELD_NAME': "session_token"});</script><script>yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);</script><script>if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>  <div id="debug"></div>
 </body></html>
-

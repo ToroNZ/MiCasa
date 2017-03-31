@@ -10,30 +10,30 @@ RSpec.describe Authorization, type: :model do
       },
       extra: {
         raw_info: {
-          bio: "I, simply am not there",
-          email: "diogob@gmail.com",
-          first_name: "Diogo",
+          bio: "I'm simply not here",
+          email: "tomas@sensaway.co.nz",
+          first_name: "Tomas",
           gender: "male",
           id: "547955110",
-          last_name: "Biazus",
-          link: "http://www.facebook.com/diogo.biazus",
-          locale: "pt_BR",
-          name: "Diogo, Biazus",
+          last_name: "Maggio",
+          link: "http://www.facebook.com/tomas.maggio",
+          locale: "es_LA",
+          name: "Tomas, Maggio",
           timezone: -3,
-          updated_time: "2012-08-01T18:22:50+0000",
-          username: "diogo.biazus",
+          updated_time: "2017-03-01T18:22:50+0000",
+          username: "tomas.maggio",
           verified: true
         },
       },
       info: {
-        description: "I, simply am not there",
-        email: "diogob@gmail.com",
-        first_name: "Diogo",
+        description: "I'm simply not there",
+        email: "tomas@sensaway.co.nz",
+        first_name: "Tomas",
         image: "http://graph.facebook.com/547955110/picture?type:, square",
-        last_name: "Biazus",
-        name: "Diogo, Biazus",
+        last_name: "Maggio",
+        name: "Tomas, Maggio",
         urls: {
-          Facebook: "http://www.facebook.com/diogo.biazus"
+          Facebook: "http://www.facebook.com/tomas.maggio"
         },
         verified: true
       },

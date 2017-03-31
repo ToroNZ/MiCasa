@@ -11,7 +11,7 @@ RSpec.describe StaticController, type: :controller do
     context 'with a session with contribution' do
       before do
         request.session[:thank_you_contribution_id] = contribution.id
-        get :thank_you, { locale: :pt }
+        get :thank_you, { locale: :es }
       end
 
       it{ is_expected.to redirect_to(project_contribution_path(contribution.project, contribution)) }

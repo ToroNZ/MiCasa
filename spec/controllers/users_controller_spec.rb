@@ -10,7 +10,7 @@ RSpec.shared_examples "redirect to edit_user_path" do
 
     before do
       allow(controller).to receive(:current_user).and_return(current_user)
-      get action, id: current_user.id, locale: :pt
+      get action, id: current_user.id, locale: :es
     end
 
     it { is_expected.to redirect_to edit_user_path(current_user, anchor: (anchor || action.to_s)) }
@@ -21,7 +21,7 @@ RSpec.shared_examples "redirect to edit_user_path" do
 
     before do
       allow(controller).to receive(:current_user).and_return(nil)
-      get :settings, id: current_user.id, locale: :pt
+      get :settings, id: current_user.id, locale: :es
     end
 
     it { is_expected.to redirect_to sign_up_path }
@@ -65,7 +65,7 @@ RSpec.describe UsersController, type: :controller do
 
       before do
         expect(controller).to_not receive(:sign_in)
-        get :reactivate, id: user.id, token: token, locale: :pt
+        get :reactivate, id: user.id, token: token, locale: :es
       end
 
       it "should not set deactivated_at to nil" do
@@ -80,7 +80,7 @@ RSpec.describe UsersController, type: :controller do
 
       before do
         expect(controller).to_not receive(:sign_in)
-        get :reactivate, id: user.id, token: token, locale: :pt
+        get :reactivate, id: user.id, token: token, locale: :es
       end
 
       it "should not set deactivated_at to nil" do
@@ -95,7 +95,7 @@ RSpec.describe UsersController, type: :controller do
 
       before do
         expect(controller).to receive(:sign_in).with(user)
-        get :reactivate, id: user.id, token: token, locale: :pt
+        get :reactivate, id: user.id, token: token, locale: :es
       end
 
       it "should set deactivated_at to nil" do
@@ -111,7 +111,7 @@ RSpec.describe UsersController, type: :controller do
       before do
         allow(controller).to receive(:current_user).and_call_original
         sign_in(create(:user, admin: true))
-        delete :destroy, id: user.id, locale: :pt
+        delete :destroy, id: user.id, locale: :es
       end
 
       it "should set deactivated_at" do
@@ -129,7 +129,7 @@ RSpec.describe UsersController, type: :controller do
       before do
         allow(controller).to receive(:current_user).and_call_original
         sign_in(current_user)
-        delete :destroy, id: user.id, locale: :pt
+        delete :destroy, id: user.id, locale: :es
       end
 
       it "should set deactivated_at" do
@@ -146,7 +146,7 @@ RSpec.describe UsersController, type: :controller do
     context "when user is not loged" do
       let(:current_user) { nil }
       before do
-        delete :destroy, id: user.id, locale: :pt
+        delete :destroy, id: user.id, locale: :es
       end
 
       it "should not set deactivated_at" do
@@ -160,7 +160,7 @@ RSpec.describe UsersController, type: :controller do
   describe "GET unsubscribe_notifications" do
     context "when user is loged" do
       before do
-        get :unsubscribe_notifications, id: user.id, locale: 'pt'
+        get :unsubscribe_notifications, id: user.id, locale: 'es'
       end
 
       it { is_expected.to redirect_to edit_user_path(user, anchor: 'notifications')  }
@@ -169,7 +169,7 @@ RSpec.describe UsersController, type: :controller do
     context "when user is not loged" do
       let(:current_user) { nil }
       before do
-        get :unsubscribe_notifications, id: user.id, locale: 'pt'
+        get :unsubscribe_notifications, id: user.id, locale: 'es'
       end
 
       it { is_expected.to redirect_to new_user_registration_path  }
@@ -179,7 +179,7 @@ RSpec.describe UsersController, type: :controller do
   describe "POST new_password" do
     context "without password parameter" do
       before do
-        post :new_password, id: user.id, locale: 'pt'
+        post :new_password, id: user.id, locale: 'es'
       end
 
       it { expect(response.status).to eq 400 }
@@ -189,7 +189,7 @@ RSpec.describe UsersController, type: :controller do
 
     context "with an invalid password parameter" do
       before do
-        post :new_password, id: user.id, locale: 'pt', password: '12'
+        post :new_password, id: user.id, locale: 'es', password: '12'
       end
 
       it { expect(response.status).to eq 400 }
@@ -199,7 +199,7 @@ RSpec.describe UsersController, type: :controller do
 
     context "with a valid password parameter" do
       before do
-        post :new_password, id: user.id, locale: 'pt', password: 'newpassword123'
+        post :new_password, id: user.id, locale: 'es', password: 'newpassword123'
       end
 
       it { expect(response.status).to eq 200 }
@@ -215,7 +215,7 @@ RSpec.describe UsersController, type: :controller do
       let(:password_confirmation){ 'newpassword123' }
 
       before do
-        put :update, id: user.id, locale: 'pt', user: { current_password: current_password, password: password, password_confirmation: password_confirmation }
+        put :update, id: user.id, locale: 'es', user: { current_password: current_password, password: password, password_confirmation: password_confirmation }
       end
 
       context "with wrong current password" do
@@ -235,7 +235,7 @@ RSpec.describe UsersController, type: :controller do
 
         before do
           published_project
-          put :update, id: user.id, locale: 'pt', user: { public_name: 'foo2' }
+          put :update, id: user.id, locale: 'es', user: { public_name: 'foo2' }
         end
 
         it "should not update public name" do
@@ -249,7 +249,7 @@ RSpec.describe UsersController, type: :controller do
         let(:published_project) { create(:project, state: 'online', user: user) }
         before do
           published_project
-          put :update, id: user.id, locale: 'pt', user: { public_name: 'foo2' }
+          put :update, id: user.id, locale: 'es', user: { public_name: 'foo2' }
         end
 
         it "should not update public name" do
@@ -261,7 +261,7 @@ RSpec.describe UsersController, type: :controller do
       context "when user not have published projects" do
         let(:user) { create(:user, public_name: 'foo')}
         before do
-          put :update, id: user.id, locale: 'pt', user: { public_name: 'foo2' }
+          put :update, id: user.id, locale: 'es', user: { public_name: 'foo2' }
         end
 
         it "should update public name" do
@@ -276,7 +276,7 @@ RSpec.describe UsersController, type: :controller do
       let(:category){ create(:category) }
       before do
         create(:category_follower, user: user)
-        put :update, id: user.id, locale: 'pt', user: { twitter: 'test', unsubscribes: {project.id.to_s=>"1"}}
+        put :update, id: user.id, locale: 'es', user: { twitter: 'test', unsubscribes: {project.id.to_s=>"1"}}
       end
       it("should update the user and nested models") do
         user.reload
@@ -290,7 +290,7 @@ RSpec.describe UsersController, type: :controller do
       let(:project){ create(:project, state: 'successful') }
       before do
         create(:category_follower, user: user)
-        put :update, id: user.id, category_followers_form: true, locale: 'pt', user: { twitter: 'test', unsubscribes: {project.id.to_s=>"1"}, category_followers_attributes: []}
+        put :update, id: user.id, category_followers_form: true, locale: 'es', user: { twitter: 'test', unsubscribes: {project.id.to_s=>"1"}, category_followers_attributes: []}
       end
       it("should clear category followers") do
         user.reload
@@ -302,7 +302,7 @@ RSpec.describe UsersController, type: :controller do
 
   describe "GET show" do
     before do
-      get :show, id: user.id, locale: 'pt', ref: 'test'
+      get :show, id: user.id, locale: 'es', ref: 'test'
     end
 
     context "when user is no longer active" do

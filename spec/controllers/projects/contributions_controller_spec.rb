@@ -18,7 +18,7 @@ RSpec.describe Projects::ContributionsController, type: :controller do
 
     before do
       set_expectations
-      put :update, { locale: :pt, project_id: project.id, id: contribution.id, contribution: contribution_info, format: :json }
+      put :update, { locale: :es, project_id: project.id, id: contribution.id, contribution: contribution_info, format: :json }
     end
 
     context "when no user is logged in" do
@@ -78,7 +78,7 @@ RSpec.describe Projects::ContributionsController, type: :controller do
     let(:value){ '20.00' }
     before do
       request.env['REQUEST_URI'] = "/test_path"
-      post :create, {locale: :pt, project_id: project.id, contribution: { value: value, reward_id: nil, anonymous: '0' }}
+      post :create, {locale: :es, project_id: project.id, contribution: { value: value, reward_id: nil, anonymous: '0' }}
     end
 
     context "when no user is logged" do
@@ -153,7 +153,7 @@ RSpec.describe Projects::ContributionsController, type: :controller do
   describe "GET show" do
     let(:contribution){ create(:confirmed_contribution, value: 10.00) }
     before do
-      get :show, { locale: :en, project_id: contribution.project.id, id: contribution.id }
+      get :show, { locale: :es, project_id: contribution.project.id, id: contribution.id }
     end
 
     context "when no user is logged in" do

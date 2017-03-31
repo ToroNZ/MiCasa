@@ -7,7 +7,7 @@ RSpec.describe Projects::PostsController, type: :controller do
   subject{ response }
 
   describe "DELETE destroy" do
-    before { delete :destroy, project_id: project_post.project.id, id: project_post.id, locale: 'en' }
+    before { delete :destroy, project_id: project_post.project.id, id: project_post.id, locale: 'es' }
     context 'When user is a guest' do
       its(:status) { should == 302 }
     end

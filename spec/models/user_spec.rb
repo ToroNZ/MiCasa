@@ -235,10 +235,10 @@ RSpec.describe User, type: :model do
 
     context "when locale is diff from the user locale" do
       before do
-        expect(user).to receive(:update_attributes).with(locale: 'en')
+        expect(user).to receive(:update_attributes).with(locale: 'es')
       end
 
-      it { user.change_locale('en') }
+      it { user.change_locale('es') }
     end
   end
 
