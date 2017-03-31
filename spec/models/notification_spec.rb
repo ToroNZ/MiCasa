@@ -9,7 +9,7 @@ RSpec.describe Notification, type: :model do
       },
       from_name: 'from_name',
       from_email: 'from@email.com',
-      locale: 'pt'
+      locale: 'es'
     }.to_json)
   end
 
@@ -91,7 +91,7 @@ RSpec.describe Notification, type: :model do
 
     describe '#locale' do
       subject { notification.locale}
-      it { is_expected.to eq('pt') }
+      it { is_expected.to eq('es') }
     end
   end
 end

@@ -3,7 +3,7 @@ require 'rails_helper'
 
 RSpec.describe UserDecorator do
   before(:all) do
-    I18n.locale = :pt
+    I18n.locale = :es
   end
 
   describe "#display_pending_refund_payments_projects_name" do
@@ -133,7 +133,7 @@ RSpec.describe UserDecorator do
   end
 
   describe '#entity_type' do
-    let(:acc_type) { 'pf'} 
+    let(:acc_type) { 'pf'}
     let(:user) { create(:user, account_type: acc_type) }
 
     subject { user.decorator.entity_type }

@@ -16,10 +16,10 @@ AS $function$
             if public.open_for_contributions(v_project) then
                 select id from users where email = new.user_email into v_fallback_user_id;
 
-                insert into public.notifications(template_name, user_id, user_email, metadata, created_at) 
+                insert into public.notifications(template_name, user_id, user_email, metadata, created_at)
                     values ('project_invite', v_fallback_user_id, new.user_email, json_build_object(
                         'associations', json_build_object('project_invite_id', new.id, 'project_id', new.project_id),
-                        'locale', 'pt',
+                        'locale', 'es',
                         'from_name', (split_part(trim(both ' ' from v_project_owner.name), ' ', 1)||' via '||settings('company_name')),
                         'from_email', v_project_owner.email
                     )::jsonb, now());
@@ -29,7 +29,7 @@ AS $function$
         end;
     $function$;
 
-CREATE OR REPLACE VIEW "1"."projects" AS 
+CREATE OR REPLACE VIEW "1"."projects" AS
  SELECT p.id AS project_id,
     p.category_id,
     p.name AS project_name,
