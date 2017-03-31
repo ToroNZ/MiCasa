@@ -6,8 +6,8 @@ es:
       see_all: more
       banners:
         1:
-          title: 'Financiacion en multitud - Inverti en las grandes ligas!'
-          subtitle: ''
+          title: 'Financiacion inmobiliaria colectiva'
+          subtitle: 'Convertite en dueño desde U$s 100'
           link: '/start?ref=home_banner'
           cta: 'Quiero invertir'
           image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-fctodos.jpg'
