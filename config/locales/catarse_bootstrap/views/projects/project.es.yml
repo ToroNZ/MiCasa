@@ -10,7 +10,7 @@ es:
           subtitle: 'Convertite en dueño con solo U$s 100'
           link: '/start?ref=home_banner'
           cta: 'Quiero invertir'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-fctodos.jpg'
+          image: '/assets/images/bg-micasa-nyc.jpg'
 #        2:
 #          title: '2016'
 #          subtitle: 'Conheça nossa perspectiva sobre como foi o ano no JVN.'
