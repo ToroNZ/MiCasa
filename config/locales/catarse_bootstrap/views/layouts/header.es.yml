@@ -3,10 +3,10 @@ es:
     header:
       blog: Blog
       discover: Descrubri
-      hello: Know more
+      hello: Conocer mas
       faq: FAQ
       help: Contacto
-      help_support: Support Center
+      help_support: Centro de Ayuda
       profile: Mi Perfil
       projects: Mis Oportunidades
       signin: Ingresa
@@ -17,7 +17,7 @@ es:
       login_with_facebook: Inicia sesion usando facebook
     user:
       my_contributions: My supports
-      logout: Logout
+      logout: Salir
       my_credits: Credit balance
       refund_link: Request refund
       my_history: My History
