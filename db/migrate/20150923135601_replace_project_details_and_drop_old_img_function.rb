@@ -1,7 +1,7 @@
 class ReplaceProjectDetailsAndDropOldImgFunction < ActiveRecord::Migration
   def up
     execute <<-SQL
-      CREATE OR REPLACE VIEW "1".project_details AS 
+      CREATE OR REPLACE VIEW "1".project_details AS
        SELECT p.id AS project_id,
           p.id,
           p.user_id,
@@ -13,7 +13,7 @@ class ReplaceProjectDetailsAndDropOldImgFunction < ActiveRecord::Migration
           p.permalink,
           p.video_embed_url,
           p.video_url,
-          c.name_en AS category_name,
+          c.name_es AS category_name,
           c.id AS category_id,
           original_image(p.*) AS original_image,
           thumbnail_image(p.*, 'thumb'::text) AS thumb_image,
@@ -52,7 +52,7 @@ class ReplaceProjectDetailsAndDropOldImgFunction < ActiveRecord::Migration
            LEFT JOIN cities ct ON ct.id = p.city_id
            LEFT JOIN states st ON st.id = ct.state_id
            LEFT JOIN project_notifications pn ON pn.project_id = p.id
-        GROUP BY p.id, c.id, u.id, c.name_en, ct.name, u.address_city, st.acronym, u.address_state, st.name, pt.progress, pt.pledged, pt.total_contributions, p.state, p.expires_at, p.sent_to_analysis_at, pt.total_payment_service_fee;
+        GROUP BY p.id, c.id, u.id, c.name_es, ct.name, u.address_city, st.acronym, u.address_state, st.name, pt.progress, pt.pledged, pt.total_contributions, p.state, p.expires_at, p.sent_to_analysis_at, pt.total_payment_service_fee;
 
       DROP FUNCTION public.img_thumbnail(projects, text);
     SQL
@@ -72,7 +72,7 @@ class ReplaceProjectDetailsAndDropOldImgFunction < ActiveRecord::Migration
                         '/project_thumb_' || size || '_' || $1.uploaded_image
                   $function$;
 
-      CREATE OR REPLACE VIEW "1".project_details AS 
+      CREATE OR REPLACE VIEW "1".project_details AS
        SELECT p.id AS project_id,
           p.id,
           p.user_id,
@@ -84,7 +84,7 @@ class ReplaceProjectDetailsAndDropOldImgFunction < ActiveRecord::Migration
           p.permalink,
           p.video_embed_url,
           p.video_url,
-          c.name_en AS category_name,
+          c.name_es AS category_name,
           c.id AS category_id,
           original_image(p.*) AS original_image,
           img_thumbnail(p.*, 'thumb'::text) AS thumb_image,
@@ -123,7 +123,7 @@ class ReplaceProjectDetailsAndDropOldImgFunction < ActiveRecord::Migration
            LEFT JOIN cities ct ON ct.id = p.city_id
            LEFT JOIN states st ON st.id = ct.state_id
            LEFT JOIN project_notifications pn ON pn.project_id = p.id
-        GROUP BY p.id, c.id, u.id, c.name_en, ct.name, u.address_city, st.acronym, u.address_state, st.name, pt.progress, pt.pledged, pt.total_contributions, p.state, p.expires_at, p.sent_to_analysis_at, pt.total_payment_service_fee;
+        GROUP BY p.id, c.id, u.id, c.name_es, ct.name, u.address_city, st.acronym, u.address_state, st.name, pt.progress, pt.pledged, pt.total_contributions, p.state, p.expires_at, p.sent_to_analysis_at, pt.total_payment_service_fee;
 
     SQL
   end

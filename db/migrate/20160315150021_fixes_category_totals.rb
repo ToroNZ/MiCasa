@@ -5,7 +5,7 @@ drop materialized view "1".category_totals;
 CREATE MATERIALIZED VIEW "1".category_totals AS
 WITH project_stats AS (
      SELECT ca.id AS category_id,
-        ca.name_en AS name,
+        ca.name_es AS name,
         count(DISTINCT p_1.id) FILTER (WHERE ((coalesce(fp.state, p_1.state))::text = 'online'::text)) AS online_projects,
         count(DISTINCT p_1.id) FILTER (WHERE ((coalesce(fp.state, p_1.state))::text = 'successful'::text)) AS successful_projects,
         count(DISTINCT p_1.id) FILTER (WHERE ((coalesce(fp.state, p_1.state))::text = 'failed'::text)) AS failed_projects,
@@ -21,16 +21,16 @@ WITH project_stats AS (
       GROUP BY ca.id
     ), contribution_stats AS (
      SELECT ca.id AS category_id,
-        ca.name_en,
+        ca.name_es,
         avg(pa.value) AS avg_value,
         count(DISTINCT c_1.user_id) AS total_contributors
        FROM (((public.projects p_1
-         LEFT JOIN public.flexible_projects fp ON fp.project_id = p_1.id       
+         LEFT JOIN public.flexible_projects fp ON fp.project_id = p_1.id
          JOIN public.categories ca ON ((ca.id = p_1.category_id)))
          JOIN public.contributions c_1 ON ((c_1.project_id = p_1.id)))
          JOIN public.payments pa ON ((pa.contribution_id = c_1.id)))
-      WHERE 
-        coalesce(fp.state, p_1.state) <> ALL(ARRAY[('draft'::character varying)::text, 
+      WHERE
+        coalesce(fp.state, p_1.state) <> ALL(ARRAY[('draft'::character varying)::text,
         ('in_analysis'::character varying)::text, ('rejected'::character varying)::text]) AND (pa.state = ANY(public.confirmed_states()))
       GROUP BY ca.id
     ), followers AS (
@@ -48,7 +48,7 @@ p.avg_goal,
 p.avg_pledged,
 p.total_successful_value,
 p.total_value,
-c.name_en,
+c.name_es,
 c.avg_value,
 c.total_contributors,
 cf.followers

@@ -11,16 +11,16 @@ class AddProjectPostsDetailsView < ActiveRecord::Migration
              '/' || $1.uploaded_image
       $_$;
 
-      create function public.user_has_contributed_to_project(user_id integer, project_id integer) 
+      create function public.user_has_contributed_to_project(user_id integer, project_id integer)
       returns boolean
-      language sql 
-      security definer 
+      language sql
+      security definer
       stable
       as $$
         select true from "1".contribution_details c where c.state = any(public.confirmed_states()) and c.project_id = $2 and c.user_id = $1;
       $$;
 
-      create function public.current_user_has_contributed_to_project(integer) 
+      create function public.current_user_has_contributed_to_project(integer)
       returns boolean
       language sql
       stable
@@ -42,7 +42,7 @@ class AddProjectPostsDetailsView < ActiveRecord::Migration
           p.permalink,
           p.video_embed_url,
           p.video_url,
-          c.name_en as category_name,
+          c.name_es as category_name,
           c.id as category_id,
           p.original_image AS original_image,
           public.img_thumbnail(p.*,'thumb') AS thumb_image,
@@ -82,7 +82,7 @@ class AddProjectPostsDetailsView < ActiveRecord::Migration
           p.id,
           c.id,
           u.id,
-          c.name_en,
+          c.name_es,
           ct.name,
           u.address_city,
           st.acronym,
@@ -140,7 +140,7 @@ class AddProjectPostsDetailsView < ActiveRecord::Migration
           p.permalink,
           p.video_embed_url,
           p.video_url,
-          c.name_en as category_name,
+          c.name_es as category_name,
           c.id as category_id,
           coalesce(pt.progress, 0) as progress,
           coalesce(pt.pledged, 0) as pledged,
@@ -175,7 +175,7 @@ class AddProjectPostsDetailsView < ActiveRecord::Migration
           p.id,
           c.id,
           u.id,
-          c.name_en,
+          c.name_es,
           ct.name,
           u.address_city,
           st.acronym,
