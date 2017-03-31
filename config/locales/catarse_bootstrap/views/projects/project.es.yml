@@ -1,15 +1,15 @@
 es:
   projects:
     home:
-      header_html: 'Joint Venture Nepal'
+      header_html: 'MiCasa Argentina'
       row_title: 'Popular'
       see_all: more
       banners:
         1:
-          title: 'Collective  Financing For All'
+          title: 'Financiacion en multitud - Inverti en las grandes ligas!'
           subtitle: ''
           link: '/start?ref=home_banner'
-          cta: 'Start Your Campaign'
+          cta: 'Quiero invertir'
           image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-fctodos.jpg'
 #        2:
 #          title: '2016'
