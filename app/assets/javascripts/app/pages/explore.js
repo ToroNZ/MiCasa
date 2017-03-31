@@ -1,4 +1,4 @@
-App.addChild('Descubri', _.extend({
+App.addChild('Explore', _.extend({
   el: 'body[data-action="show"][data-controller-name="pages"][data-id="explore"]',
 
   events: {

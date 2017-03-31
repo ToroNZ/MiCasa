@@ -7,7 +7,7 @@ RSpec.describe ProjectDecorator do
     let(:project){ create(:project, state: 'draft', online_days: nil) }
     subject{ project.time_to_go }
     before do
-      I18n.locale = :en
+      I18n.locale = :es
     end
 
     context "when there is more than 1 day to go but less than 2" do
@@ -194,4 +194,3 @@ RSpec.describe ProjectDecorator do
 
   end
 end
-

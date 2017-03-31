@@ -12,7 +12,7 @@ RSpec.describe PaymentEngines do
     PaymentEngines.clear
     allow(paypal_engine).to receive(:name).and_return('PayPal')
     allow(paypal_engine).to receive(:review_path).with(contribution).and_return("/#{contribution}")
-    allow(paypal_engine).to receive(:locale).and_return('en')
+    allow(paypal_engine).to receive(:locale).and_return('es')
 
     allow(moip_engine).to receive(:name).and_return('MoIP')
     allow(moip_engine).to receive(:review_path).with(contribution).and_return("/#{contribution}")

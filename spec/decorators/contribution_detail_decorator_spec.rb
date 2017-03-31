@@ -6,10 +6,10 @@ RSpec.describe ContributionDetailDecorator do
   let(:value){ 10 }
   let(:contribution){ create(:confirmed_contribution, value: value) }
   let(:payment){ contribution.payments.last }
-  let(:detail){ contribution.details.ordered.last } 
+  let(:detail){ contribution.details.ordered.last }
 
   before do
-    I18n.locale = :en
+    I18n.locale = :es
   end
 
   describe "#display_installments_details" do
@@ -104,4 +104,3 @@ RSpec.describe ContributionDetailDecorator do
     end
   end
 end
-

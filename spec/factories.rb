@@ -23,7 +23,7 @@ FactoryGirl.define do
     "foo_page_#{n}"
   end
 
-  sequence :domain do |n| 
+  sequence :domain do |n|
     "foo#{n}lorem.com"
   end
 
@@ -46,7 +46,7 @@ FactoryGirl.define do
     f.association :project
   end
 
-  factory :balance_transaction do |f| 
+  factory :balance_transaction do |f|
     f.association :user
     f.association :project
     f.amount 100
@@ -104,7 +104,7 @@ FactoryGirl.define do
     f.state 'online'
     f.budget '1000'
     f.uploaded_image File.open("#{Rails.root}/spec/support/testimg.png")
-    after :create do |project| 
+    after :create do |project|
       unless project.project_transitions.where(to_state: project.state).present?
         FactoryGirl.create(:project_transition, to_state: project.state, project: project)
       end
@@ -143,7 +143,7 @@ FactoryGirl.define do
     f.budget '1000'
     f.uploaded_image File.open("#{Rails.root}/spec/support/testimg.png")
 
-    after :create do |flex_project| 
+    after :create do |flex_project|
       FactoryGirl.create(:project_transition, {
         to_state: flex_project.state,
         project: flex_project
@@ -174,7 +174,7 @@ FactoryGirl.define do
     f.association :project, factory: :project
   end
 
-  factory :project_invite do |f| 
+  factory :project_invite do |f|
     f.associations :project
     f.user_email { generate(:user_email) }
   end
@@ -189,7 +189,7 @@ FactoryGirl.define do
         },
         origin_name: 'Foo Bar',
         origin_email: 'foo@bar.com',
-        locale: 'en'
+        locale: 'es'
       }
     end
   end
@@ -200,7 +200,7 @@ FactoryGirl.define do
     f.template_name 'project_success'
     f.from_email 'from@email.com'
     f.from_name 'from_name'
-    f.locale 'en'
+    f.locale 'es'
   end
 
 
