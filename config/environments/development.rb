@@ -38,5 +38,7 @@ Catarse::Application.configure do
 
   config.assets.digest = false
   config.assets.quiet = true
+  class Application < Rails::Application
+    config.web_console.whitelisted_ips = '192.168.2.0/24'
+  end
 end
-
