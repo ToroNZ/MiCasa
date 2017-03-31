@@ -7,7 +7,7 @@ es:
       banners:
         1:
           title: 'Financiacion inmobiliaria colectiva'
-          subtitle: 'Convertite en dueño desde U$s 100'
+          subtitle: 'Convertite en dueño con solo U$s 100'
           link: '/start?ref=home_banner'
           cta: 'Quiero invertir'
           image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-fctodos.jpg'
