@@ -1,16 +1,16 @@
 es:
   pages:
     start:
-      header_html: JVN - It`s Time To Fund Your Idea
-      description: 'JVN is a hyperlocal and open source crowdfunding platform, or collective financing, in Nepal. Come and draw campaigns from paper!'
-      title: 'Crowdfunding and collective financing in Nepal'
-      tagline: 'Crowdfunding and collective financing in Nepal'
-      page-title: "How does JVN work?"
-      page-subtitle: 'Get to know the basic pillars of collective financing campaign'
-      title: "Finance your campaign collectively"
-      submit: "GET STARTED FOR FREE"
+      header_html: MiCasa - Es hora de invertir a lo grande con muy poco
+      description: 'MiCasa es una plataforma de financiamiento colectivo para invertir en negocios inmobiliario en Argentina.'
+      title: 'Financiamineto colectivo en Argentina'
+      tagline: 'Financiamineto colectivo en Argentina'
+      page-title: "Como funciona MiCasa?"
+      page-subtitle: 'Conoce todos los detalles de el financiamiento en multitud'
+      title: "Financiamineto inmobiliario colectivo"
+      submit: "EMPEZA - ES GRATIS"
       learn-more: "know more"
-      slogan: 'It`s Time To Fund Your Idea'
+      slogan: 'Es hora de invertir a lo grande'
       header:
         people: "People have already supported at least 1 campaign in JVN"
         success: 'Campaigns have already been funded here'

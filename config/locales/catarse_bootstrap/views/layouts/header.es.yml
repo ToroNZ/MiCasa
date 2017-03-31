@@ -2,19 +2,19 @@ es:
   layouts:
     header:
       blog: Blog
-      discover: Explore
+      discover: Descrubri
       hello: Know more
       faq: FAQ
-      help: Contact
+      help: Contacto
       help_support: Support Center
-      profile: My Profile
-      projects: My projects
-      signin: Login
-      signup: Signup
-      submit: Start Your Campaign
-      search: Search for campaigns
+      profile: Mi Perfil
+      projects: Mis Oportunidades
+      signin: Inicia Sesion
+      signup: Registrate
+      submit: Crea una oportunidade
+      search: Busca oportunidades
     login:
-      login_with_facebook: Sign in using facebook
+      login_with_facebook: Inicia sesion usando facebook
     user:
       my_contributions: My supports
       logout: Logout
