@@ -1,4 +1,4 @@
-App.addChild('Explore', _.extend({
+App.addChild('Descubri', _.extend({
   el: 'body[data-action="show"][data-controller-name="pages"][data-id="explore"]',
 
   events: {
@@ -16,7 +16,7 @@ App.addChild('Explore', _.extend({
   },
 
   activate: function(){
-    
+
     this.route('recommended');
     this.route('expiring');
     this.route('recent');
@@ -26,11 +26,11 @@ App.addChild('Explore', _.extend({
     this.route('near_of/:state');
 
     this.setInitialFilter();
-    
+
     this.setupPagination(
-      this.$("#loading img"), 
+      this.$("#loading img"),
       this.$('#load-more'),
-      this.$(".results"), 
+      this.$(".results"),
       this.$("#explore_results").data('projects-path')
     );
 
@@ -73,11 +73,11 @@ App.addChild('Explore', _.extend({
     else{
       this.filter[name] = true;
     }
-    
+
     this.$('.results').empty();
-    
+
     this.fetchPage();
-    
+
     if(this.parent && this.parent.$search.length > 0){
       this.parent.$search.val('');
     }
@@ -130,4 +130,3 @@ App.views.Explore.addChild('FollowCategory', {
   }
 
 });
-
